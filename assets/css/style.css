@@ -53,7 +53,8 @@ a:visited {
 .intro p {
     color: white;
     background-color: #f56600;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    padding: 1rem;
 }
 
 .intro div {
@@ -136,4 +137,20 @@ td img {
     color: #055067;
     font-size: 1rem;
     padding: 1rem;
+}
+.ancora {
+    background-color: #364759;
+    text-align: center;
+    padding: 1.2rem;
+}
+.logoFinale {
+    background-color: rgb(34, 47, 63);
+    text-align: center;
+    border: 1px solid black;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 2rem;
+}
+.logoFinale img{
+    margin-top: 2rem;
 }
