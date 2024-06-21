@@ -1,1 +1,76 @@
 /* Your styles here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 234, 237);
+    color: rgb(0, 1, 0);
+
+}
+
+.logo {
+    background-color: rgb(34, 47, 63);
+    border: 1px solid black;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo img {
+    width: 10%;
+    height: 10%;
+}
+
+.logo div {
+    background-color: #364759;
+
+}
+
+ul li {
+    display: inline;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+
+.intro {
+    text-align: center;
+    padding: 2em;
+
+}
+
+
+.intro p {
+    color: white;
+    background-color: #f56600;
+}
+
+.intro div {
+    background-image: url(/assets/images/bg-image.png);
+    margin: 2rem 0;
+}
+
+div h1 {
+    margin: 0 auto;
+    padding: 2rem;
+    color: white;
+}
+
+div h2 {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+div img {
+    width: 72%;
+}
